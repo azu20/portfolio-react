@@ -4,17 +4,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardProjectOne from '../components/Card/CardProjectOne';
 import CardProjectTwo from '../components/Card/CardProjectTwo';
 import CardProjectThree from '../components/Card/CardProjectThree';
+import CardProjectFour from '../components/Card/CardProjectFour';
+import CardProjectFive from '../components/Card/CardProjectFive';
+import CardProjectSix from '../components/Card/CardProjectSix';
+import Footer from '../components/Footer/Footer';
 import "./portfolio.css";
 
 
 
 const Portfolio = () => {
     return (
-      <div>
-      <div className="Portfolio">
-        <h1>Portfolio</h1>
-      <br></br>
-      <Container fluid>
+     
+      <Container>
+        <h1>Portfolio</h1>  
+         
       <Row>
         <Col size="md-6 sm-12">
           <CardProjectOne />
@@ -29,21 +32,22 @@ const Portfolio = () => {
           <CardProjectThree />
         </Col>
         <Col size="md-6 sm-12">
-          <CardProjectThree />
+          <CardProjectFour />
         </Col>
       </Row>
       <br></br>
       <Row>
         <Col size="md-6 sm-12">
-          <CardProjectOne />
+          <CardProjectFive />
         </Col>
         <Col size="md-6 sm-12">
-          <CardProjectTwo />
+          <CardProjectSix />
         </Col>
       </Row>
+      <br></br>
+      <br></br>
+      <Footer />
     </Container>
-    </div>
-    </div>
   );
   };
   

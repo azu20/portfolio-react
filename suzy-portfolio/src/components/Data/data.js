@@ -27,14 +27,6 @@ return ( [
     github: 'https://github.com/azu20/Work-Day-Scheduler'
 }, 
 {
-    name: 'Work Day Scheduler', 
-    type: 'Individual Project',
-    description:'I have created a simple calendar application that allows the user to save events for each hour of the day.',
-    technologyConcept: '3rd party APIs, Moment.js, Jquery', 
-    deployed: 'https://azu20.github.io/Work-Day-Scheduler/',
-    github: 'https://github.com/azu20/Work-Day-Scheduler'
-}, 
-{
     name: 'MySQL Employee Tracker', 
     type: 'Individual Project',
     description:'This command-line interface (Content Management System) will architect and build a solution for managing employees using node, inquirer, and MySQL.',

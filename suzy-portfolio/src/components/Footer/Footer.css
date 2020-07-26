@@ -3,7 +3,8 @@ nav.navbar.navbar-default {
  
   }
 
-  nav.navbar {
+ .navbar {
+      
     background: hsla(314, 11%, 43%, 1);
     background: linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
     background: -moz-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
@@ -12,11 +13,12 @@ nav.navbar.navbar-default {
    
   }
 
-a {
-  color: rgb(23, 65, 65);
+  .navbar.brand {
+    color: #2B2E3B;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     font-size: larger;
-
   }
+
   
+

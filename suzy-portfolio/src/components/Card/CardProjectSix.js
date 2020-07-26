@@ -1,30 +1,30 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import projectSixImage from "../../Assets/Images/hamburger.JPG";
+import Card from 'react-bootstrap/Card';
+// import Overlay from 'react-bootstrap/Overlay'; 
 
 
-function CardProjectFive() {
-    return (
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="hovereffect ">
-        <img class="img-responsive" src="./Assets/Images/hamburger.JPG" alt="Project#6" />
-    <div class="overlay">
-        {/* <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
-    <div class="col-md-8"> */}
-      <div class="card-body">
-        <h1 class="card-title">Full Stack: Burger App</h1>
-        <h2>Individual Project</h2>
-        <p class="card-text">This is the first Full Stack App I created. This burger logging app uses MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It also applies the MVC design pattern.</p>
-        <p class="card-text"><small class="text-muted">Technologies:</small></p>
-        <a class="info" href="https://desolate-wave-36352.herokuapp.com/">Visit</a>
-        <a class="info" href="https://github.com/azu20/burger-full-stack-app">Github</a>
+
+function CardProjectSix() {
+  return (
+    <Card className="bg-dark" border="primary" style={{ width: '28rem' }}>
+      <div class="hovereffect">
+        <Card.Img src={projectSixImage} alt="Card image" style={{ width: 450, height: 250 }} />
+        <div class="overlay">
+          <Card.ImgOverlay>
+            <Card.Title>Full Stack: Burger App</Card.Title>
+            <Card.Subtitle>Individual Project</Card.Subtitle>
+            <Card.Text>
+            This is the first Full Stack App I created. This burger logging app uses MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It also applies the MVC design pattern.
+    </Card.Text>
+            <Card.Text>Technology/Concepts: 3rd party APIs, Moment.js, Jquery</Card.Text>
+            <Card.Link href="https://desolate-wave-36352.herokuapp.com/">Visit</Card.Link>
+            <Card.Link href="https://github.com/azu20/burger-full-stack-app">Github</Card.Link>
+          </Card.ImgOverlay>
         </div>
-        </div>
-  </div>
-</div>
-</div>
-    );
+      </div>
+    </Card>
+  );
 }
 
-export default CardProjectFive; 
+export default CardProjectSix; 
