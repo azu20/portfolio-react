@@ -1,0 +1,24 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+ 
+  }
+
+  nav.navbar {
+    background: hsla(314, 11%, 43%, 1);
+    background: linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    background: -moz-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    background: -webkit-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7A6174", endColorstr="#b392ac", GradientType=1 );
+   
+  }
+
+a {
+    color: #2B2E3B;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+  }
+
+  /* ul {
+    text-justify: distribute ;
+  }
+   */

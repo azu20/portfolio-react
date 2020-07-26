@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-azucena/static/css/main.e0aedb22.chunk.css",
+    "main.js": "/react-portfolio-azucena/static/js/main.ce3c1006.chunk.js",
+    "main.js.map": "/react-portfolio-azucena/static/js/main.ce3c1006.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-azucena/static/js/runtime-main.e2dcf841.js",
+    "runtime-main.js.map": "/react-portfolio-azucena/static/js/runtime-main.e2dcf841.js.map",
+    "static/js/2.e092d69b.chunk.js": "/react-portfolio-azucena/static/js/2.e092d69b.chunk.js",
+    "static/js/2.e092d69b.chunk.js.map": "/react-portfolio-azucena/static/js/2.e092d69b.chunk.js.map",
+    "index.html": "/react-portfolio-azucena/index.html",
+    "precache-manifest.14519ad008efa8b810c59fe1444cc744.js": "/react-portfolio-azucena/precache-manifest.14519ad008efa8b810c59fe1444cc744.js",
+    "service-worker.js": "/react-portfolio-azucena/service-worker.js",
+    "static/css/main.e0aedb22.chunk.css.map": "/react-portfolio-azucena/static/css/main.e0aedb22.chunk.css.map",
+    "static/js/2.e092d69b.chunk.js.LICENSE.txt": "/react-portfolio-azucena/static/js/2.e092d69b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-portfolio-azucena/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2dcf841.js",
+    "static/js/2.e092d69b.chunk.js",
+    "static/css/main.e0aedb22.chunk.css",
+    "static/js/main.ce3c1006.chunk.js"
+  ]
+}

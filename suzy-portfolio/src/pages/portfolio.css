@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(213, 236, 236);
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.div {
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+}
+
+h1 {
+    margin: 15px;
+    font-family: 'Della Respira', serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+h4 {
+    color: purple;
+    font-weight: bolder;
+}
+
+body {
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background: hsla(314, 11%, 43%, 1);
+    background: linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    background: -moz-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    background: -webkit-linear-gradient(180deg, hsla(314, 11%, 43%, 1) 13%, hsla(313, 18%, 64%, 1) 43%, hsla(323, 22%, 72%, 1) 68%, hsla(326, 25%, 76%, 1) 86%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7A6174", endColorstr="#b392ac", GradientType=1 
+    );
+}
+
+.img {
+    border: 1px solid rgb(1, 78, 78);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    width: auto;
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+.hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2,
+.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+}
