@@ -6,7 +6,7 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="/">Azucena Gonzalez</a>
+            <a className="navbar-brand">Azucena Gonzalez</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
