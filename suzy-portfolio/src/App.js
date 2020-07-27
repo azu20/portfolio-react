@@ -15,12 +15,12 @@ function App() {
       <Container> 
         <Switch>
 
-          <Route exact path="/portfolio-react/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-        </Switch>    
-        </Container>      
+        </Switch>  
+        </Container>        
       </div>
     </Router>
     );
