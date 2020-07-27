@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d414dd3886e4a15053cb59ab2b39f65",
+    "revision": "7ab5ac79ab31857e4f1419b26f564ac8",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "649dc94bc6ad92c74f08",
+    "revision": "1a2d29484fab37c9840a",
     "url": "/portfolio-react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2749ef6d7533efa68fa5",
+    "revision": "8b32fd70d69532343f9b",
     "url": "/portfolio-react/static/css/main.934b83c7.chunk.css"
   },
   {
-    "revision": "649dc94bc6ad92c74f08",
-    "url": "/portfolio-react/static/js/2.2fd99472.chunk.js"
+    "revision": "1a2d29484fab37c9840a",
+    "url": "/portfolio-react/static/js/2.f963b2e5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-react/static/js/2.2fd99472.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.f963b2e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2749ef6d7533efa68fa5",
-    "url": "/portfolio-react/static/js/main.1acc3a65.chunk.js"
+    "revision": "8b32fd70d69532343f9b",
+    "url": "/portfolio-react/static/js/main.af697bf3.chunk.js"
   },
   {
     "revision": "d2d61aa11aae6f0a35ef",
     "url": "/portfolio-react/static/js/runtime-main.fbb0505f.js"
-  },
-  {
-    "revision": "3d18bd57a27214e8001d7bfd3cbd387a",
-    "url": "/portfolio-react/static/media/Employee_tracking.3d18bd57.JPG"
   },
   {
     "revision": "4bd314580acfa6e47494ed3df0a90499",
@@ -66,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "831c14fcebd3f448a0c3cbc0f69534fc",
     "url": "/portfolio-react/static/media/express-logo.831c14fc.jpeg"
-  },
-  {
-    "revision": "b883faf142e8ec3cd6a3d15cce1cb0a5",
-    "url": "/portfolio-react/static/media/hamburger.b883faf1.JPG"
   },
   {
     "revision": "398ceb92cbd8b19991a9e01ace8113ef",

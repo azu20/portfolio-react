@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.934b83c7.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.1acc3a65.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.1acc3a65.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.af697bf3.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.af697bf3.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.fbb0505f.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.fbb0505f.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio-react/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2fd99472.chunk.js": "/portfolio-react/static/js/2.2fd99472.chunk.js",
-    "static/js/2.2fd99472.chunk.js.map": "/portfolio-react/static/js/2.2fd99472.chunk.js.map",
+    "static/js/2.f963b2e5.chunk.js": "/portfolio-react/static/js/2.f963b2e5.chunk.js",
+    "static/js/2.f963b2e5.chunk.js.map": "/portfolio-react/static/js/2.f963b2e5.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.74dfc8fc3044ec4a01a4a9482f62bd41.js": "/portfolio-react/precache-manifest.74dfc8fc3044ec4a01a4a9482f62bd41.js",
+    "precache-manifest.225c9ab9da31de2108aae82b12a501c9.js": "/portfolio-react/precache-manifest.225c9ab9da31de2108aae82b12a501c9.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio-react/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.934b83c7.chunk.css.map": "/portfolio-react/static/css/main.934b83c7.chunk.css.map",
-    "static/js/2.2fd99472.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.2fd99472.chunk.js.LICENSE.txt",
-    "static/media/Employee_tracking.JPG": "/portfolio-react/static/media/Employee_tracking.3d18bd57.JPG",
+    "static/js/2.f963b2e5.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f963b2e5.chunk.js.LICENSE.txt",
     "static/media/Me-Paris.JPG": "/portfolio-react/static/media/Me-Paris.4bd31458.JPG",
     "static/media/Mern-Stack-Program-logo.png": "/portfolio-react/static/media/Mern-Stack-Program-logo.6fbfc48b.png",
     "static/media/ResumeSmall.JPG": "/portfolio-react/static/media/ResumeSmall.51047aec.JPG",
@@ -24,7 +23,6 @@
     "static/media/css-logo.png": "/portfolio-react/static/media/css-logo.ec3e6e33.png",
     "static/media/dasflix_project.JPG": "/portfolio-react/static/media/dasflix_project.61412ccc.JPG",
     "static/media/express-logo.jpeg": "/portfolio-react/static/media/express-logo.831c14fc.jpeg",
-    "static/media/hamburger.JPG": "/portfolio-react/static/media/hamburger.b883faf1.JPG",
     "static/media/jquery-logo.jpeg": "/portfolio-react/static/media/jquery-logo.398ceb92.jpeg",
     "static/media/js-logo.png": "/portfolio-react/static/media/js-logo.637ccbf2.png",
     "static/media/mongodb-logo.png": "/portfolio-react/static/media/mongodb-logo.3851cc04.png",
@@ -38,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.fbb0505f.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2fd99472.chunk.js",
+    "static/js/2.f963b2e5.chunk.js",
     "static/css/main.934b83c7.chunk.css",
-    "static/js/main.1acc3a65.chunk.js"
+    "static/js/main.af697bf3.chunk.js"
   ]
 }
